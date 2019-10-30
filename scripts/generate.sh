@@ -158,11 +158,11 @@ joinChannel
 
 echo "Updating anchor peers"
 setGlobals 0 1
-peer channel update -o orderer.supply.com:7050 -c $CHANNEL_NAME -f ./channel-artifacts/Org1MSPanchors.tx -tls true --cafile $ORDERER_CA
+peer channel update -o orderer.supply.com:7050 -c $CHANNEL_NAME -f ./channel-artifacts/Org1MSPanchors.tx --tls true --cafile $ORDERER_CA
 setGlobals 0 2
-peer channel update -o orderer.supply.com:7050 -c $CHANNEL_NAME -f ./channel-artifacts/Org2MSPanchors.tx -tls true --cafile $ORDERER_CA
+peer channel update -o orderer.supply.com:7050 -c $CHANNEL_NAME -f ./channel-artifacts/Org2MSPanchors.tx --tls true --cafile $ORDERER_CA
 setGlobals 0 3
-peer channel update -o orderer.supply.com:7050 -c $CHANNEL_NAME -f ./channel-artifacts/Org3MSPanchors.tx -tls true --cafile $ORDERER_CA
+peer channel update -o orderer.supply.com:7050 -c $CHANNEL_NAME -f ./channel-artifacts/Org3MSPanchors.tx --tls true --cafile $ORDERER_CA
 echo "===================== anchor peer update is successful ===================== "
 
 ## Install chaincode on peer0.org1 and peer0.org2

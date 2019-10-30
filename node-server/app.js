@@ -26,7 +26,7 @@ app.set('view engine', 'ejs');
 // test pages
 var index = require('./router/index')
 app.use('/index', index)
-
+app.use('/', index)
 var track = require('./router/track')
 app.use('/track', track)
 

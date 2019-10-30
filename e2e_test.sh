@@ -15,7 +15,7 @@ echo "|____/    |_|   /_/   \_\ |_| \_\   |_|  "
 echo "========================================="
 echo "      Build Supply Chain Network         "
 echo "========================================="
-
+sleep 3
 export PATH=${PWD}/bin:${PWD}:$PATH
 export FABRIC_CFG_PATH=${PWD}
 export COMPOSE_PROJECT_NAME="dash"
@@ -76,7 +76,7 @@ echo
 
 echo
 echo " _____   _   _   ____   "
-echo "| ____| | \ | | |  _ \  "
+echo "| ____| | \ | | |  _ \\  "
 echo "|  _|   |  \| | | | | | "
 echo "| |___  | |\  | | |_| | "
 echo "|_____| |_| \_| |____/  "
