@@ -1,7 +1,16 @@
 {
   "requires": true,
   "lockfileVersion": 1,
-  "dependencies": {},
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "child_process": "^1.0.2",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "path": "^0.12.7",
+    "supervisor": "^0.12.0"
+  },
   "name": "node-server",
   "version": "1.0.0",
   "main": "app.js",
@@ -9,7 +18,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "author": "Hocheol Nam",
+  "license": "Apache-2.0",
+  "description": "Dash node server",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namhc616/Dash.git"
+  },
+  "keywords": [
+    "Hyperledger",
+    "Fabric"
+  ],
+  "bugs": {
+    "url": "https://github.com/namhc616/Dash/issues"
+  },
+  "homepage": "https://github.com/namhc616/Dash#readme"
 }
