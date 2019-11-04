@@ -63,12 +63,13 @@ echo "   start Invoke test for chaincode"
 echo "======================================="
 echo ""
 docker exec cli /bin/bash -c "./scripts/e2etest.sh"
+docker exec cli /bin/bash -c "./scripts/testdata.sh"
 echo ""
 echo "======================================="
 echo "         Remove Containers"
 echo "======================================="
 echo ""
-./stop.sh
+#./stop.sh
 
 echo
 echo "========= All GOOD, Supplychain execution completed =========== "

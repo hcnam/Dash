@@ -13,7 +13,8 @@ function treeBoxes(urlService, jsonData)
 		green = '#5cb85c',
 		yellow = '#f0ad4e',
 		blueText = '#4ab1eb',
-		purple = '#9467bd';
+		purple = '#9467bd',
+		magenta = '#ff00ff';
 
 	var margin = {
 					top : 0,
@@ -26,7 +27,7 @@ function treeBoxes(urlService, jsonData)
 		width = 1000 - margin.right - margin.left,
 		height = 800 - margin.top - margin.bottom;
 	
-	var rectNode = { width : 150, height : 60, textMargin : 5 },
+	var rectNode = { width : 150, height : 70, textMargin : 5 },
 		tooltip = { width : 150, height : 40, textMargin : 5 };
 	var i = 0,
 		duration = 750,
@@ -87,7 +88,10 @@ function treeBoxes(urlService, jsonData)
 					node.color = yellow;
 				if (node.type == 'user')
 					node.color = purple;
-				});
+				if (node.type == 'ware')
+					node.color = magenta;	
+				}
+				);
 			});
 		height = maxTreeWidth * (rectNode.height + 20) + tooltip.height + 20 - margin.right - margin.left;
 		width = maxDepth * (rectNode.width * 1.5) + tooltip.width / 2 - margin.top - margin.bottom;

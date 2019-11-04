@@ -82,4 +82,3 @@ chaincodeInvokeUseProduct() {
 }
 
 chaincodeInvokeUseProduct $1 $2 $3 $4
-sleep 3

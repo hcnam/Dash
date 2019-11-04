@@ -81,4 +81,3 @@ chaincodeQuery () {
 }
 
 chaincodeQuery $1 $2 $3 
-sleep 3
