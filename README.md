@@ -1,6 +1,5 @@
 # Dash
-Dankook Univ. Dept. Software Engineering  
-2019-2 Capstone Design Project  
+Dankook Univ. Dept. Software Science
 by. HoCheol Nam, JaeWon Park, HoJin Shin
 
 project is about
