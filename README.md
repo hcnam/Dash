@@ -5,8 +5,9 @@ Dankook Univ. Dept. Software Engineering
 Supply Chain with Hyperledger Fabric 1.4.3  
 
 ## Test  
-end 2 end test for fabric  
+first test fabric end to end before start.
 > ./e2e_test.sh
+if there are no errors start node server and fabric nodes docker contaniers.
 
 ## Start
 start fabric with  
