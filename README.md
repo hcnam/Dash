@@ -1,8 +1,11 @@
 # Dash
 Dankook Univ. Dept. Software Engineering  
 2019-2 Capstone Design Project  
+by. HoCheol Nam, JaeWon Park, HoJin Shin
 
-Supply Chain with Hyperledger Fabric 1.4.3  
+project is about
+### Supply Chain with Hyperledger Fabric 
+fabric version was 1.4.3  
 
 ## Test  
 first test fabric end to end before start.
