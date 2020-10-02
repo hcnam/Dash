@@ -3,6 +3,8 @@
 
 2019 - 2 Capstone Design
 
+Topic : Blockchain based supply management: DASH(Dankook Advanced Supply/Production Chain Management with Hyperledger Fabric)
+
 by. HoCheol Nam, JaeWon Park, HoJin Shin
 
 Dankook Univ. Dept. Software
