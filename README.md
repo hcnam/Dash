@@ -1,12 +1,14 @@
 # Dash
 ![LOGO](https://user-images.githubusercontent.com/43805697/94923731-4a01d780-04f7-11eb-96da-46a94edc8879.png)
 
-Dankook Univ. Dept. Software Science
+2019 - 2 Capstone Design
+
 by. HoCheol Nam, JaeWon Park, HoJin Shin
 
-project is about
+Dankook Univ. Dept. Software
+
 ### Supply Chain with Hyperledger Fabric 
-fabric version was 1.4.3  
+env : fabric version 1.4.3  
 
 ## Test  
 first test fabric end to end before start.
