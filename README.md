@@ -1,4 +1,6 @@
 # Dash
+![LOGO](https://user-images.githubusercontent.com/43805697/94923731-4a01d780-04f7-11eb-96da-46a94edc8879.png)
+
 Dankook Univ. Dept. Software Science
 by. HoCheol Nam, JaeWon Park, HoJin Shin
 
@@ -19,6 +21,9 @@ start fabric with
 
 start node with  
 > node ./node-server/app.js  
+
+### screenshots
+![example](https://user-images.githubusercontent.com/43805697/94923737-4d955e80-04f7-11eb-9ee2-bc611261ebff.png)
 
 ## stop  
 stop and remove all container with  
