@@ -1,16 +1,17 @@
 # Dash
 ![LOGO](https://user-images.githubusercontent.com/43805697/94923731-4a01d780-04f7-11eb-96da-46a94edc8879.png)
 
-2019 - 2 Capstone Design
+* 2019 - 2 Capstone Design
 
-Topic : Blockchain based supply management: DASH(Dankook Advanced Supply/Production Chain Management with Hyperledger Fabric)
+### Team : Dash
+* by. HoCheol Nam, JaeWon Park, HoJin Shin (Dankook Univ. Dept. Software)
 
-by. HoCheol Nam, JaeWon Park, HoJin Shin
-
-Dankook Univ. Dept. Software
+### Topic
+#### Blockchain based supply management
+* DASH(Dankook Advanced Supply/Production Chain Management with Hyperledger Fabric)
 
 ### Supply Chain with Hyperledger Fabric 
-env : fabric version 1.4.3  
+* environment : hyperledger fabric v1.4.3  
 
 ## Test  
 first test fabric end to end before start.
