@@ -4,7 +4,7 @@
 * 2019 - 2 Capstone Design
 
 ### Team : Dash
-* by. HoCheol Nam, JaeWon Park, HoJin Shin (Dankook Univ. Dept. Software)
+* by. HoCheol Nam, JaeWon Park, HoJin Shin, SeYeon Cho (Dankook Univ. Dept. Software)
 
 ### Topic
 #### Blockchain based supply management
